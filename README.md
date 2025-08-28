@@ -22,11 +22,11 @@ Match 3 or more identical fruits to score, trigger cascades, overcome spreading 
 > (Add real screenshots to `images/` and update the filenames below.)
 
 ### Desktop
-![Desktop Gameplay](images/desktop_gameplay.png)  
+![Desktop Gameplay](images/desktop.png)  
 *Classic grid-based match‑3 with evolving obstacles*
 
 ### Mobile
-![Mobile Gameplay](images/mobile_gameplay.png)  
+![Mobile Gameplay](images/mobile.png)  
 *Tap, swap & crush – fully responsive*
 
 ---
