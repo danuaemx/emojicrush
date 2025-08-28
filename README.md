@@ -19,8 +19,6 @@ Match 3 or more identical fruits to score, trigger cascades, overcome spreading 
 
 ## 📸 Screenshots
 
-> (Add real screenshots to `images/` and update the filenames below.)
-
 ### Desktop
 ![Desktop Gameplay](images/desktop.png)  
 *Classic grid-based match‑3 with evolving obstacles*
