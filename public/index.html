@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>EmojiCrush — Infinity</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container" class="container">
+    <div class="panel">
+        <div class="game-ui">
+            <div class="hud">
+                <div class="title">🍭 EmojiCrush</div>
+                <div class="stats">
+                    <div class="stats-left">
+                        <div class="badge">⭐ Nivel: <span id="level">1</span></div>
+                        <div class="badge">🏆 Puntos: <span id="score">0</span></div>
+                    </div>
+                    <div class="hud-buttons">
+                        <button id="btn-toggle-difficulty" class="ghost"><span>Difícil</span></button>
+                        <div class="settings-container">
+                            <button id="btn-settings" class="ghost">⚙️</button>
+                            <div id="settings-menu" class="settings-menu">
+                                <button id="btn-restart" class="btn">Reiniciar</button>
+                                <button id="btn-sound" class="ghost">🔊</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="superpowers" id="superpowers-container">
+                    <div class="power-item" id="power-bomb">
+                        <span>💣</span>
+                        <div class="power-count" id="power-bomb-count">0</div>
+                    </div>
+                    <div class="power-item" id="power-hammer">
+                        <span>🔨</span>
+                        <div class="power-count" id="power-hammer-count">0</div>
+                    </div>
+                    <div class="power-item" id="power-time">
+                        <span>⏱️</span>
+                        <div class="power-count" id="power-time-count">0</div>
+                    </div>
+                </div>
+                <div class="objectives" id="objectives-container"></div>
+            </div>
+        </div>
+
+        <div class="progress-container"><div class="progress-bar" id="progress-bar"></div></div>
+
+        <div class="board-wrap" id="board-wrap">
+            <div id="board" class="board" aria-label="tablero"></div>
+            <div id="level-overlay" class="level-overlay">
+                <h2 id="overlay-title"></h2>
+                <p>Puntuación Total: <strong id="level-score">0</strong></p>
+                <p>Bonificación de Nivel: <strong id="level-bonus">0</strong></p>
+                <button id="next-level-btn" class="btn"></button>
+            </div>
+            <div class="particles" id="particles"></div>
+        </div>
+
+        <div class="footer">
+            Juego creado con ❤️ por Daniel E. Ruiz
+        </div>
+    </div>
+</div>
+
+<script type = "module" src="js/main.js"></script>
+</body>
+</html>
